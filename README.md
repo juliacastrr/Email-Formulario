@@ -4,7 +4,7 @@
 
 Documentação de Funcionalidades
 
-1. Validação de Email
+Validação de Email
     Descrição: O formulário contém um campo dedicado para inserção do endereço de e-mail do usuário.
     Biblioteca Utilizada: A validação do campo de e-mail é implementada utilizando a biblioteca Yup.
 
@@ -16,7 +16,7 @@ Mensagens de Erro:
     Campo Vazio: Se o campo de e-mail estiver vazio, a seguinte mensagem de erro será exibida: "O campo de e-mail é obrigatório."
     Formato Inválido: Se o e-mail inserido não for válido, a mensagem exibida será: "Por favor, insira um endereço de e-mail válido."
 
-2. Envio do Formulário
+Envio do Formulário
     Condições para Envio: O formulário só será enviado se o e-mail estiver válido, conforme as regras estabelecidas.
     Feedback ao Usuário: Caso o usuário tente enviar o formulário com um e-mail inválido, um alerta será exibido, informando-o para corrigir os erros antes de prosseguir.
 
